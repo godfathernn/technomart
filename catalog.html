@@ -8,20 +8,26 @@
 
 <body>
   <header class="page-header">
-    <div class="page-header__customer panel-customer">
-      <p class="panel-customer__logo logo">
-        <a class="panel-customer__logo-link" href="index.html">Техномарт</a>
+    <div class="page-header__panel-top panel-top">
+      <p class="panel-top__logo logo">
+        <a class="panel-top__logo-link" href="index.html">Техномарт</a>
       </p>
-      <!--<form class="panel-customer__search"></form>-->
-      <p class="panel-customer__bookmarks">
-        <a class="panel-customer__bookmarks-link" href="#">Закладки: 0</a>
-      </p>
-      <p class="panel-customer__cart">
-        <a class="panel-customer__cart-link" href="#">Корзина: 0</a>
-      </p>
-      <p class="panel-customer__order">
-        <a class="panel-customer__order-link" href="#">Оформить заказ</a>
-      </p>
+      <!--<form class="panel-top__search"></form>-->
+      <ul class="panel-top__shopping-block shopping-block">
+        <li class="shopping-block__bookmarks">
+          <a class="shopping-block__bookmarks-link" href="#">Закладки:
+              <span class="shopping-block__bookmarks-count">0</span>
+          </a>
+        </li>
+        <li class="shopping-block__cart">
+          <a class="shopping-block__cart-link shopping-block__cart-link--full" href="#">Корзина:
+              <span class="shopping-block__cart-count">10</span>
+          </a>
+        </li>
+        <li class="shopping-block__order">
+          <a class="shopping-block__order-link" href="#">Оформить заказ</a>
+        </li>
+      </ul>
     </div>
     <div class="page-header__info panel-info">
       <p class="panel-info__title">Интернет-магазин строительных материалов и инструментов для ремонта</p>
@@ -54,27 +60,27 @@
           </li>
         </ul>
       </section>
-      <ul class="panel-info__nav">
-        <Li class="panel-info__list-nav">
-          <a class="panel-info__item-nav" href="#">Главная</a>
+      <ul class="panel-info__nav nav-top">
+        <Li class="nav-top__list">
+          <a class="nav-top__item" href="#">Главная</a>
         </Li>
-        <Li class="panel-info__list-nav">
-          <a class="panel-info__item-nav" href="#">Компания</a>
+        <Li class="nav-top__list">
+          <a class="nav-top__item" href="#">Компания</a>
         </Li>
-        <Li class="panel-info__list-nav">
-          <a class="panel-info__item-nav" href="#">Каталог</a>
+        <Li class="nav-top__list">
+          <a class="nav-top__item" href="#">Каталог</a>
         </Li>
-        <Li class="panel-info__list-nav">
-          <a class="panel-info__item-nav" href="#">Новости</a>
+        <Li class="nav-top__list">
+          <a class="nav-top__item" href="#">Новости</a>
         </Li>
-        <Li class="panel-info__list-nav">
-          <a class="panel-info__item-nav" href="#">Спецпредложения</a>
+        <Li class="nav-top__list">
+          <a class="nav-top__item" href="#">Спецпредложения</a>
         </Li>
-        <Li class="panel-info__list-nav">
-          <a class="panel-info__item-nav" href="#">Контакты</a>
+        <Li class="nav-top__list">
+          <a class="nav-top__item" href="#">Контакты</a>
         </Li>
-        <Li class="panel-info__list-nav">
-          <a class="panel-info__item-nav" href="#">Доставка</a>
+        <Li class="nav-top__list">
+          <a class="nav-top__item" href="#">Доставка</a>
         </Li>
       </ul>
     </div>
@@ -140,10 +146,10 @@
             </ul>
             <ul class="product__choice-list">
               <li class="product__choice-item">
-                  <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
+                <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
               </li>
               <li class="product__choice-item">
-              <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
+                <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
               </li>
             </ul>
             <p class="product__flag">
@@ -160,13 +166,13 @@
               <li class="product__price product__price--new">22500 Р.</li>
             </ul>
             <ul class="product__choice-list">
-                <li class="product__choice-item">
-                    <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
-                </li>
-                <li class="product__choice-item">
+              <li class="product__choice-item">
+                <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
+              </li>
+              <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
-                </li>
-              </ul>
+              </li>
+            </ul>
             <p class="product__flag">
               <span class="visually-hidden">New</span>
             </p>
@@ -181,13 +187,13 @@
               <li class="product__price product__price--new">12500 Р.</li>
             </ul>
             <ul class="product__choice-list">
-                <li class="product__choice-item">
-                    <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
-                </li>
-                <li class="product__choice-item">
+              <li class="product__choice-item">
+                <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
+              </li>
+              <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
-                </li>
-              </ul>
+              </li>
+            </ul>
             <p class="product__flag">
               <span class="visually-hidden">New</span>
             </p>
@@ -202,13 +208,13 @@
               <li class="product__price product__price--new">15500 Р.</li>
             </ul>
             <ul class="product__choice-list">
-                <li class="product__choice-item">
-                    <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
-                </li>
-                <li class="product__choice-item">
+              <li class="product__choice-item">
+                <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
+              </li>
+              <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
-                </li>
-              </ul>
+              </li>
+            </ul>
             <p class="product__flag">
               <span class="visually-hidden">New</span>
             </p>
@@ -223,13 +229,13 @@
               <li class="product__price product__price--new">22500 Р.</li>
             </ul>
             <ul class="product__choice-list">
-                <li class="product__choice-item">
-                    <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
-                </li>
-                <li class="product__choice-item">
+              <li class="product__choice-item">
+                <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
+              </li>
+              <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
-                </li>
-              </ul>
+              </li>
+            </ul>
             <p class="product__flag">
               <span class="visually-hidden">New</span>
             </p>
@@ -244,13 +250,13 @@
               <li class="product__price product__price--new">12500 Р.</li>
             </ul>
             <ul class="product__choice-list">
-                <li class="product__choice-item">
-                    <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
-                </li>
-                <li class="product__choice-item">
+              <li class="product__choice-item">
+                <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
+              </li>
+              <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
-                </li>
-              </ul>
+              </li>
+            </ul>
             <p class="product__flag">
               <span class="visually-hidden">New</span>
             </p>
@@ -265,13 +271,13 @@
               <li class="product__price product__price--new">15500 Р.</li>
             </ul>
             <ul class="product__choice-list">
-                <li class="product__choice-item">
-                    <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
-                </li>
-                <li class="product__choice-item">
+              <li class="product__choice-item">
+                <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
+              </li>
+              <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
-                </li>
-              </ul>
+              </li>
+            </ul>
             <p class="product__flag">
               <span class="visually-hidden">New</span>
             </p>
@@ -286,13 +292,13 @@
               <li class="product__price product__price--new">22500 Р.</li>
             </ul>
             <ul class="product__choice-list">
-                <li class="product__choice-item">
-                    <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
-                </li>
-                <li class="product__choice-item">
+              <li class="product__choice-item">
+                <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
+              </li>
+              <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
-                </li>
-              </ul>
+              </li>
+            </ul>
             <p class="product__flag">
               <span class="visually-hidden">New</span>
             </p>
@@ -307,13 +313,13 @@
               <li class="product__price product__price--new">12500 Р.</li>
             </ul>
             <ul class="product__choice-list">
-                <li class="product__choice-item">
-                    <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
-                </li>
-                <li class="product__choice-item">
+              <li class="product__choice-item">
+                <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
+              </li>
+              <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
-                </li>
-              </ul>
+              </li>
+            </ul>
             <p class="product__flag">
               <span class="visually-hidden">New</span>
             </p>
