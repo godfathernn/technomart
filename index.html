@@ -70,6 +70,53 @@
   <main class="page-main">
     <section class="promo-block">
       <h2 class="visually-hidden">Промо-блок</h2>
+      <ul class="promo-block__offer">
+        <li class="promo-block__item">
+          <div class="flag flag--new"></div>
+          <h3>Материалы</h3>
+          <a href="#" class="promo-block__button button">На любой вкус</a>
+        </li>
+        <li class="promo-block__item">
+          <div class="flag"></div>
+          <h3>Инструмент</h3>
+          <a href="#" class="promo-block__button button">На все случаи</a>
+        </li>
+        <li class="promo-block__item">
+          <div class="flag"></div>
+          <h3>Техника</h3>
+          <a href="#" class="promo-block__button button">Для стройки</a>
+        </li>
+        <li class="promo-block__item">
+          <div class="flag"></div>
+          <h3>Скидки 50%</h3>
+          <a href="#" class="promo-block__button button">На 350 товаров</a>
+        </li>
+        <li class="promo-block__item">
+          <div class="flag"></div>
+          <h3>Доставка</h3>
+          <a href="#" class="promo-block__button button">Бесплатно</a>
+        </li>
+      </ul>
+      <div class="promo-block__slider slider">
+        <button class="slider__control slider__control--left" type="button">
+          <span class="visually-hidden">Предыдущий слайд</span>
+        </button>
+        <button class="slider__control slider__control--right" type="button">
+          <span class="visually-hidden">Следующий слайд</span>
+        </button>
+        <ul class="slider__list">
+          <li class="slider__item slider__item--current">
+            <h3>Перфораторы</h3>
+            <p>Настоящие мужские игрушки</p>
+            <a class="slider__button button" href="catalog.html">Открыть каталог</a>
+          </li>
+          <li class="slider__item">
+            <h3>Дрели</h3>
+            <p>Соседям на радость!</p>
+            <a class="slider__button button" href="catalog.html">Открыть каталог</a>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="popular-products">
       <header class="popular-products__header popular-header">
@@ -81,10 +128,8 @@
           <article class="product__item">
             <h3 class="product__title">Перфоратор BOSCH BFG 9000</h3>
             <img class="product__img" src="img/BFG9000.jpg" width="218" height="150" alt="Перфоратор BOSCH BFG 9000">
-            <ul class="product__price-list">
-              <li class="product__price product__price--old">32500 Р.</li>
-              <li class="product__price product__price--new">22500 Р.</li>
-            </ul>
+            <span class="product__price product__price--old">32500 Р.</span>
+            <span class="product__price product__price--new">22500 Р.</span>
             <ul class="product__choice-list">
               <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
@@ -93,7 +138,7 @@
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
               </li>
             </ul>
-            <p class="product__flag">
+            <p class="flag flag--new">
               <span class="visually-hidden">New</span>
             </p>
           </article>
@@ -102,10 +147,8 @@
           <article class="product__item">
             <h3 class="product__title">Перфоратор BOSCH BFG 3000</h3>
             <img class="product__img" src="img/BFG3000.jpg" width="218" height="150" alt="Перфоратор BOSCH BFG 3000">
-            <ul class="product__price-list">
-              <li class="product__price product__price--old">22500 Р.</li>
-              <li class="product__price product__price--new">15500 Р.</li>
-            </ul>
+            <span class="product__price product__price--old">22500 Р.</span>
+            <span class="product__price product__price--new">15500 Р.</span>
             <ul class="product__choice-list">
               <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
@@ -114,7 +157,7 @@
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
               </li>
             </ul>
-            <p class="product__flag">
+            <p class="flag flag--new">
               <span class="visually-hidden">New</span>
             </p>
           </article>
@@ -123,10 +166,8 @@
           <article class="product__item">
             <h3 class="product__title">Перфоратор BOSCH BFG 6000</h3>
             <img class="product__img" src="img/BFG6000.jpg" width="218" height="150" alt="Перфоратор BOSCH BFG 6000">
-            <ul class="product__price-list">
-              <li class="product__price product__price--old">30500 Р.</li>
-              <li class="product__price product__price--new">22500 Р.</li>
-            </ul>
+            <span class="product__price product__price--old">30500 Р.</span>
+            <span class="product__price product__price--new">22500 Р.</span>
             <ul class="product__choice-list">
               <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
@@ -135,7 +176,7 @@
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
               </li>
             </ul>
-            <p class="product__flag">
+            <p class="flag flag--new">
               <span class="visually-hidden">New</span>
             </p>
           </article>
@@ -144,10 +185,8 @@
           <article class="product__item">
             <h3 class="product__title">Перфоратор BOSCH BFG 2000</h3>
             <img class="product__img" src="img/BFG2000.jpg" width="218" height="150" alt="Перфоратор BOSCH BFG 2000">
-            <ul class="product__price-list">
-              <li class="product__price product__price--old"></li>
-              <li class="product__price product__price--new">12500 Р.</li>
-            </ul>
+            <span class="product__price product__price--old"></span>
+            <span class="product__price product__price--new">12500 Р.</span>
             <ul class="product__choice-list">
               <li class="product__choice-item">
                 <a class="product__choice-button product__choice-button--buy button" href="#">Купить</a>
@@ -156,7 +195,7 @@
                 <a class="product__choice-button product__choice-button--bookmarks button" href="#">В закладки</a>
               </li>
             </ul>
-            <p class="product__flag">
+            <p class="flag flag--new">
               <span class="visually-hidden">New</span>
             </p>
           </article>
@@ -216,9 +255,15 @@
       <p class="service__text">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех
         сил, чтобы сделать ваши покупки приятными.</p>
       <ul class="service__menu">
-      <li class="service__menu-item service__menu-item--current">Доставка</li>
-      <li class="service__menu-item">Гарантия</li>
-      <li class="service__menu-item">Кредит</li>
+        <li class="service__menu-item service__menu-item--current">
+          <button type="button">Доставка</button>
+        </li>
+        <li class="service__menu-item">
+          <button type="button">Гарантия</button>
+        </li>
+        <li class="service__menu-item">
+          <button type="button">Кредит</button>
+        </li>
       </ul>
       <ul class="service__slider">
         <li class="service__slider-item service__slider-item--active">
@@ -257,7 +302,7 @@
       <h2 class="contacts__title">Контакты</h2>
       <p class="contacts__text">Вы можете забрать товар сами, заехав в наш офис:</p>
       <div class="contacts__map">
-        <img src="http://placehold.it/150x100" alt="Карта расположения магазина">
+        <a class="contacts__map-link" href=""><img src="img/map-mini.png" alt="Магазин расположен по адресу г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
       </div>
       <a class="contacts__button button" href="contacts.html">Заблудились? Напишите нам!</a>
     </section>
@@ -317,10 +362,25 @@
     </div>
   </footer>
 
-  <section class="modal-form modal">
+  <section class="modal-feedback modal">
     <h2 class="visually-hidden">Напишите нам</h2>
-    <!--Здесь будет форма-->
-    <span class="modal__close">X</span>
+     <form class="modal-feedback__form" action="https://echo.htmlacademy.ru" method="post">
+      <p class="modal-feedback__field">
+        <label class="modal-feedback__label" for="your-name">Ваше имя:</label>
+        <input class="modal-feedback__text" type="text" name="name" id="your-name" placeholder="Имя Фамилия">
+      </p>
+      <p class="modal-feedback__field">
+          <label class="modal-feedback__label" for="your-email">Ваш e-mail:</label>
+          <input class="modal-feedback__text" type="text" name="email" id="your-email" placeholder="email@example.com">
+        </p>
+        <p class="modal-feedback__field">
+            <label class="modal-feedback__label" for="your-text">Текст письма:</label>
+            <textarea class="modal-feedback__text-area" name="text-area" id="your-text" cols="30" rows="10">В свободной форме</textarea>
+        </p>
+    </form>
+    <button class="modal__close">
+      <span class="vissually-hidden">Закрыть форму</span>
+    </button>
   </section>
 </body>
 
