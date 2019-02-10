@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -50,7 +51,7 @@
           <a class="nav-top__item" href="#">Компания</a>
         </Li>
         <Li class="nav-top__list">
-          <a class="nav-top__item" href="#">Каталог</a>
+          <a class="nav-top__item" href="catalog.html">Каталог</a>
         </Li>
         <Li class="nav-top__list">
           <a class="nav-top__item" href="#">Новости</a>
@@ -364,19 +365,19 @@
 
   <section class="modal-feedback modal">
     <h2 class="visually-hidden">Напишите нам</h2>
-     <form class="modal-feedback__form" action="https://echo.htmlacademy.ru" method="post">
+    <form class="modal-feedback__form" action="https://echo.htmlacademy.ru" method="post">
       <p class="modal-feedback__field">
         <label class="modal-feedback__label" for="your-name">Ваше имя:</label>
         <input class="modal-feedback__text" type="text" name="name" id="your-name" placeholder="Имя Фамилия">
       </p>
       <p class="modal-feedback__field">
-          <label class="modal-feedback__label" for="your-email">Ваш e-mail:</label>
-          <input class="modal-feedback__text" type="text" name="email" id="your-email" placeholder="email@example.com">
-        </p>
-        <p class="modal-feedback__field">
-            <label class="modal-feedback__label" for="your-text">Текст письма:</label>
-            <textarea class="modal-feedback__text-area" name="text-area" id="your-text" cols="30" rows="10">В свободной форме</textarea>
-        </p>
+        <label class="modal-feedback__label" for="your-email">Ваш e-mail:</label>
+        <input class="modal-feedback__text" type="text" name="email" id="your-email" placeholder="email@example.com">
+      </p>
+      <p class="modal-feedback__field">
+        <label class="modal-feedback__label" for="your-text">Текст письма:</label>
+        <textarea class="modal-feedback__text-area" name="text-area" id="your-text" cols="30" rows="10">В свободной форме</textarea>
+      </p>
     </form>
     <button class="modal__close">
       <span class="vissually-hidden">Закрыть форму</span>
